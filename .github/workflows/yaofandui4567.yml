@@ -2,9 +2,9 @@ name: yaofandui4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '59 2/6 * * *'
 
-jobs:  # 32142
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +12,12 @@ jobs:  # 32142
       - uses: actions/checkout@v4
       - name: yaofandui4567
         env:
-          wbfa5: ${{ secrets.wbfa5 }}
+          lum1091: ${{ secrets.lum1091 }}
         run: |
-          echo $wbfa5 | jq -r .a4 | /bin/bash
-          echo $aq9 | jq -r .oyjz0128 | /bin/bash
-          echo $twq9 | jq -r .wosg332 | /bin/bash
-          echo $l9621 | jq -r .bz18064 | /bin/bash
-          echo $utc2 | jq -r .hddw6 | /bin/bash
-          echo $ye64 | jq -r .ll67 | /bin/bash
-          echo $tlit8 | jq -r .zul53 | /bin/bash
-          echo $nmh909 | jq -r .ctg705 | /bin/bash
-          echo $jrd6029 | jq -r .kcily413 | /bin/bash
+          echo $lum1091 | jq -r .dpfby51 | /bin/bash
+          echo $q101 | jq -r .deh58 | /bin/bash
+          echo $cnb64748 | jq -r .kbj86082 | /bin/bash
+          echo $jqqh80195 | jq -r .fibe7047 | /bin/bash
+          echo $ilcyd72 | jq -r .schm61 | /bin/bash
+          echo $ave28 | jq -r .rnl0055 | /bin/bash
 
